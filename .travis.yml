@@ -1,0 +1,9 @@
+language: groovy
+
+branches:
+  only:
+  - master
+  - development
+
+before_install:
+  - chmod 755 ./gradlew

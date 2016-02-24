@@ -1,9 +1,9 @@
 language: groovy
 
 branches:
-  - only:
-    - master
-    - development
+  only:
+  - master
+  - development
 
 before-script:
-    - chmod 755 ./gradlew
+  - chmod 755 ./gradlew

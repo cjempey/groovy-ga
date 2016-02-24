@@ -5,5 +5,5 @@ branches:
   - master
   - development
 
-before-script:
+before_script:
   - chmod 755 ./gradlew

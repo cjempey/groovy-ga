@@ -30,7 +30,6 @@ public class SimpleSolutionImpl implements Solution {
 
 	@Override
 	public void mutate() {
-		// TODO Auto-generated method stub
 		if (Math.random()>0.5) {
 			number++;
 		} else {

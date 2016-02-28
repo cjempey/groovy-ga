@@ -6,11 +6,11 @@ public class SimpleSolutionImpl implements Solution {
 
 	int number;
 	
-	SimpleSolutionImpl() {
-		number = (Math.random() * 10).round();
+	static Solution random() {
+		return new SimpleSolutionImpl((Math.random() * 10).round());
 	}
 	
-	SimpleSolutionImpl(value) {
+	private SimpleSolutionImpl(value) {
 		number = value;
 	}
 	

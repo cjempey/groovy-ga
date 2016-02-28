@@ -7,4 +7,5 @@ public interface Solution {
 	Solution cross(Solution other);
 	
 	void mutate();
+	
 }

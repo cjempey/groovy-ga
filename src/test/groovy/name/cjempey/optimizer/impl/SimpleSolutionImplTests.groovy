@@ -1,4 +1,4 @@
-package name.cjempey.optimizer;
+package name.cjempey.optimizer.impl;
 
 import name.cjempey.optimizer.impl.SimpleSolutionImpl;
 import spock.lang.*
